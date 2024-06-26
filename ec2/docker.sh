@@ -2,6 +2,8 @@
 
 git clone https://github.com/chandureddy08/expense-docker.git
 
+sleep 10
+
 # Update the package database
 yum install -y yum-utils
 
