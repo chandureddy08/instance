@@ -7,8 +7,8 @@ resource "aws_instance" "chandu" {
 
   tags = var.tags
 
-root_block_device {
-    volume_size = 50
-    volume_type = "gp3"
-  }
+# root_block_device {
+#     volume_size = 50
+#     volume_type = "gp3"
+#   }
 }

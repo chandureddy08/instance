@@ -9,7 +9,7 @@ terraform {
     bucket = "chandu-reddy-s3-buckets"
     key = "docker-practice-instance"
     region = "us-east-1"
-    dynamodb_table = "chandu-lock"
+    dynamodb_table = "chandureddy-dev"
   }
 }
   provider "aws"{
